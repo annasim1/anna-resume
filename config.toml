@@ -99,8 +99,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Senior full Stack Developer** with extensive experience with Continuous Integration, Continuous Delivery and Continuous Deployment pipelines. Strong Web development skills attained by working with various web frameworks. Proficient in all aspects of software development lifecycle. Hands-on 24/7 production support experience. Great communication and interpersonal skills acquired by presenting projects and mentoring junior developers."
-
+        summary = "**Senior full Stack Developer**<br/>Extensive experience with Continuous Integration, Continuous Delivery and Continuous Deployment pipelines<br/>Strong Web development skills attained by working with various web frameworks<br/>Proficient in all aspects of software development lifecycle<br/>Hands-on 24/7 production support experience<br/>Great communication and interpersonal skills acquired by presenting projects and mentoring junior developers"
+    
     # Experiences section
     [params.experiences]
         enable = true
