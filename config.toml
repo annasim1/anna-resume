@@ -111,7 +111,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         position = "Senior Full Stack Developer"
         dates = "2014 - Present"
         company = "Stars Technologies, Toronto"
-        details = "Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
+        details = "Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis)<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
 
         [[params.jobs.list]]
         position = "Java Web Developer "
@@ -132,7 +132,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Developed Serial Client Bridge emulator to transfer data from/to TCP/IP to/from Serial Port (Power Builder)<br/>Wrote program for distributed access finger print login UareU (C++)"
 
     # Skills section
-    [params.skills]
+    [params.summary
         enable = true
         icon = "fa-rocket"
         title = "Technical Skills"
