@@ -27,7 +27,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         name = "Anna Simbirtsev"
         tagline = "Senior Full Stack Developer"
-        avatar = "portrait.jpg"
+        avatar = "static/img/portrait.jpg"
 
     # Contact section
     [params.contact]
@@ -73,11 +73,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.language.list]]
         language = "English"
-        level = "Native"
+        level = "Professional"
 
         [[params.language.list]]
         language = "Russian"
-        level = "Professional"
+        level = "Native"
 
     # Interests section
     [params.interests]
@@ -111,49 +111,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
         position = "Senior Full Stack Developer"
         dates = "2014 - Present"
         company = "Stars Technologies, Toronto"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        details = "Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Java Web Developer "
+        dates = "2006 - 2014"
+        company = "Afilias Canada, Toronto"
+        details = "Designed and implemented a web client application for domain, host and contact management (Wicket framework, Spring, Java, JDBC, HTML)<br/>Developed Searchable Whois web application (Spring MVC, Java, HTML, CSS, JavaScript, Elasticsearch)<br/>Designed and developed pricing analysis tool for financial department (Java, SQL, JUnit) <br/>Enhanced various existing testing frameworks (Scala, Robot Framework)<br/>Redesigned existing web and server side applications to implement the requirements of new clients (Struts, Java, XML, SQL) <br/>Practiced Test Driven Development with extensive JUnit test cases<br/>Provided leadership to group of developers on deploying new registries<br/>Managed small projects that required collaboration between various departments"
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet,<br/> **Describe your role here** lorem ipsum dolor sit amet,<br/> consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Application Developer"
+        dates = "2002 - 2006"
+        company = "PBS Systems, Toronto"
+        details = "Developed client-server application for parts management and order processing (Java, AWT, SWING, JDBC, NetBeans 5.0, MySQL)<br/>Created reports for parts managers and physical inventory (Java, PDF, JDBC)<br/>Developed bridge application for data transferring from internal system to an external company (Java, JDBC)<br/>Maintenance and production support of client/server applications for parts, service, accounting and showroom (C/C++, Visual C++, Linux, Perl, Unix Shell script, ODBC)<br/>Managed client databases, performed database upgrades, performance tuning, backed up data, looked after data consistency (Informix, Linux/Unix, SQL)"
+
+        [[params.jobs.list]]
+        position = "Programmer"
+        dates = "May - Sep 2000"
+        company = "Autros Health Care Solutions, Toronto"
+        details = "Developed Serial Client Bridge emulator to transfer data from/to TCP/IP to/from Serial Port (Power Builder)<br/>Wrote program for distributed access finger print login UareU (C++)"
 
     # Skills section
     [params.skills]
         enable = true
         icon = "fa-rocket"
-        title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
+        title = "Technical Skills"
+        summary = "**Architecture and design:** OOD/OOP concepts, SAAS and PAAS, design pattern, enterprise architecture patterns<br/>**Web Development:** Angular 5, Angular 1, Bootstrap 4, Node, Typescript, Ext JS 6, Grails 3, Wicket, Apache Struts, HTML, CSS, JavaScript, JQuery, JSP, XSLT, Apache Tomcat, Jetty, IIS <br/>**Application Development:** Java 8, Groovy, MyBatis, Spring MVC 5, JUnit, C/C++, Perl, Unix Shell Scripting, XML, JSON<br/>**Database:** Postgres, DB2, SQL stored procedures(Postgres), MySQL<br/>**Version Control Systems:** Git, STASH, CVS, Subversion<br/>**Automation/Build Tools:** Atlassian JIRA & Bamboo, Jenkins, Gulp, Docker, Maven, Ant<br/>**Platforms:** UNIX/LINUX (Red Hat, Debian), Windows<br/>**Application Tools:** Code, GGTS, Eclipse, Visual Studio"
 
     # Footer section
 
