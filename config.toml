@@ -132,7 +132,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Developed Serial Client Bridge emulator to transfer data from/to TCP/IP to/from Serial Port (Power Builder)<br/>Wrote program for distributed access finger print login UareU (C++)"
 
     # Skills section
-    [params.summary
+    [params.summary]
         enable = true
         icon = "fa-rocket"
         title = "Technical Skills"
