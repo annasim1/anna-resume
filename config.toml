@@ -159,7 +159,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list]]
         skill = "Spring MVC"
-        level = "90%"
+        level = "91%"
 
         [[params.skills.list]]
         skill = "Bootstrap"
