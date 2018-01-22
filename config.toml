@@ -19,7 +19,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
+    styles = "styles-4.css"
 
 # Sidebar sections
 
@@ -73,7 +73,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.language.list]]
         language = "English"
-        level = "Professional"
+        level = "Native"
 
         [[params.language.list]]
         language = "Russian"
@@ -111,7 +111,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         position = "Senior Full Stack Developer"
         dates = "2014 - Present"
         company = "Stars Technologies, Toronto"
-        details = "Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
+        details = "Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis)<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
 
         [[params.jobs.list]]
         position = "Java Web Developer "
@@ -138,11 +138,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Angular 5 and Angular 1"
+        skill = "Angular 5, Angular 1"
         level = "70%"
                 
         [[params.skills.list]]
-        skill = "Javascript"
+        skill = "Javascript, Typescript"
         level = "98%"
 
         [[params.skills.list]]
@@ -159,7 +159,28 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list]]
         skill = "Spring MVC"
-        level = "70%"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Bootstrap"
+        level = "70%" 
+
+        [[params.skills.list]]
+        skill = "Node"
+        level = "90%" 
+
+        [[params.skills.list]]
+        skill = "Git, STASH, CVS, Subversion"
+        level = "90%" 
+
+        [[params.skills.list]]
+        skill = "Atlassian JIRA & Bamboo, Jenkins, Gulp, Docker, Maven, Ant"
+        level = "90%" 
+
+        [[params.skills.list]]
+        skill = "Postgres, DB2, SQL stored procedures(Postgres), MySQL"
+        level = "90%"
+
 
     # Footer section
 
