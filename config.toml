@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "http://www.annasimbirtsev.me/"
+baseurl = "https://www.annasimbirtsev.me/"
 languageCode = "en-us"
 title = "Anna Simbirtsev Resume"
 theme = "hugo-orbit-theme"
