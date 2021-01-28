@@ -26,7 +26,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     # Profile section
     [params.profile]
         name = "Anna Simbirtsev"
-        tagline = "Senior Full Stack Developer"
+        tagline = "Team Lead"
         avatar = "portrait.jpg"
 
     # Contact section
@@ -99,8 +99,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Senior full Stack Developer**<br/>Extensive experience with Continuous Integration, Continuous Delivery and Continuous Deployment pipelines<br/>Strong Web development skills attained by working with various web frameworks<br/>Proficient in all aspects of software development lifecycle<br/>Hands-on 24/7 production support experience<br/>Great communication and interpersonal skills acquired by presenting projects and mentoring junior developers"
-    
+        summary = "**Team lead/Full Stack Developer**<br/>Extensive experience with Continuous Integration, Continuous Delivery and Continuous Deployment pipelines<br/>Strong Web development skills attained by working with various web frameworks<br/>Proficient in all aspects of software development lifecycle<br/>Hands-on 24/7 production support experience<br/>Great communication and interpersonal skills"
+
     # Experiences section
     [params.experiences]
         enable = true
@@ -108,8 +108,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Team Lead"
+        dates = "2019 - Present"
+        company = "Stars Technologies, Toronto"
+        details = "Managed a team of 4 engineers<br/>Provided knowledge and individual mentoring to team members as needed<br/>Applied Agile methodologies for team management, led daily stand up meetings, managed Kanban board<br/>Overlooked deployments and sprint planning<br/>Was in charge of all team management aspects, such as hiring, onboarding, one-on-ones, performance reviews<br/>Implemented various API microservices(Java, Spring Boot, REST API, Rabbit MQ, WebSockets)<br/>rovided support and new feature implementations for an online Account Management System(Angular, Spring Boot, Java)"
+
+        [[params.jobs.list]]
         position = "Senior Full Stack Developer"
-        dates = "2014 - Present"
+        dates = "2014 - 2019"
         company = "Stars Technologies, Toronto"
         details = "Converted multiple legacy applications to Spring Boot (Spring Boot, Java 8, MyBatis, DB2)<br/>Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis)<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Implemented alert security widget (Angular 5, Spring boot, DB2)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
 
@@ -140,7 +146,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         skill = "Angular 5, Angular 1"
         level = "70%"
-                
+
         [[params.skills.list]]
         skill = "Javascript, Typescript"
         level = "98%"
@@ -163,19 +169,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list]]
         skill = "Bootstrap"
-        level = "70%" 
+        level = "70%"
 
         [[params.skills.list]]
         skill = "Node"
-        level = "90%" 
+        level = "90%"
 
         [[params.skills.list]]
         skill = "Git, STASH, CVS, Subversion"
-        level = "90%" 
+        level = "90%"
 
         [[params.skills.list]]
         skill = "Atlassian JIRA & Bamboo, Jenkins, Gulp, Docker, Maven, Ant"
-        level = "90%" 
+        level = "90%"
 
         [[params.skills.list]]
         skill = "Postgres, DB2, SQL stored procedures(Postgres), MySQL"
@@ -188,7 +194,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     # Please keep the original attribution link when using for your own project.
     # If you'd like to use the template without the attribution,
     # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
+    #
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
