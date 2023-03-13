@@ -67,7 +67,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "1998 - 2002"
 
 	    [[params.education.list]]
-	    degree = "Microsoft Azure Fundamentals"
+	    degree = "Certification: Microsoft Azure Fundamentals"
 
 # Main body sections
 
