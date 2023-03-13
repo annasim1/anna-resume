@@ -27,7 +27,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         name = "Anna Simbirtsev"
         tagline = "Team Lead"
-        avatar = "portrait.jpg"
+        avatar = "portrait1.jpg"
 
     # Contact section
     [params.contact]
@@ -65,30 +65,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "Minor in Mathematics"
         college = "University of Toronto"
         dates = "1998 - 2002"
-
-    # Languages section
-    [params.language]
+    
+    # Certifications
+    [params.certification]
         enable = true
-        title = "Languages"
+        title = "Certifications"
 
-        [[params.language.list]]
-        language = "English"
-        level = "Native"
-
-        [[params.language.list]]
-        language = "Russian"
-        level = "Native"
-
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
-
-        [[params.interests.list]]
-        interest = "Cooking"
-
-        [[params.interests.list]]
-        interest = "Skiing"
+	[[params.certification.list]]
+	Microsoft Certified: Azure Fundamentals
 
 # Main body sections
 
@@ -99,7 +83,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Team lead/Full Stack Developer**<br/>Extensive experience with Continuous Integration, Continuous Delivery and Continuous Deployment pipelines<br/>Strong Web development skills attained by working with various web frameworks<br/>Proficient in all aspects of software development lifecycle<br/>Hands-on 24/7 production support experience<br/>Great communication and interpersonal skills"
+        summary = "**Team lead/Full Stack Developer**<br/>Over 20+ years’ experience with software development lifecycle<br/>Expertise in cloud-based web applications and microservices<br/>Problem solver, often collaborating across the enterprise to drive successful delivery and resolve production incidents<br/>Proficient in leading and managing end-to-end projects utilizing Agile methodologies<br/>Hands-on experience with 24/7 production support<br/>Great communication and interpersonal skills"
 
     # Experiences section
     [params.experiences]
@@ -110,14 +94,14 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.jobs.list]]
         position = "Team Lead"
         dates = "2019 - Present"
-        company = "Stars Technologies, Toronto"
-        details = "Managed a team of 4 engineers<br/>Provided knowledge and individual mentoring to team members as needed<br/>Applied Agile methodologies for team management, led daily stand up meetings, managed Kanban board<br/>Overlooked deployments and sprint planning<br/>Was in charge of all team management aspects, such as hiring, onboarding, one-on-ones, performance reviews<br/>Implemented various API microservices(Java, Spring Boot, REST API, Rabbit MQ, WebSockets)<br/>rovided support and new feature implementations for an online Account Management System(Angular, Spring Boot, Java)"
+        company = "Flutter International plc, Toronto"
+        details = "Managed a complete squad of software and quality assurance engineers with a focus on customer experience<br/>Covered all aspects of team management from hiring and onboarding to performance reviews and compensation<br/>Participated in analysis, design and implementation of new regulatory requirements<br/>Provided knowledge transfer, individual mentoring and code review to members of multiple squads<br/>Applied Agile methodologies for team management, supervised scrum meetings, managed Kanban board<br/>Overlooked deployments and led investigations of production incidents across multiple teams<br/>Implemented and maintained various microservices for a web client (Java, Spring MVC, Spring Boot, REST, Spring WebFlux, React, Rabbit MQ, WebSockets, Docker)<br/>Created internal configuration application (Angular, PrimeNG, Spring Boot, DB2, Hibernate)"
 
         [[params.jobs.list]]
         position = "Senior Full Stack Developer"
         dates = "2014 - 2019"
-        company = "Stars Technologies, Toronto"
-        details = "Converted multiple legacy applications to Spring Boot (Spring Boot, Java 8, MyBatis, DB2)<br/>Created internal configuration application (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis)<br/>Designed and implemented various reports (Angular 5, PrimeNG, Spring MVC 5, DB2, MyBatis, JSP)<br/>Implemented alert security widget (Angular 5, Spring boot, DB2)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular 1, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS 6, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails 3/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails 3/Groovy)" 
+        company = "Flutter International plc, Toronto"
+        details = "Converted multiple legacy applications to Spring Boot (Spring Boot, Java, MyBatis, DB2)<br/>Designed and implemented various reports (Angular, PrimeNG, Spring MVC, DB2, MyBatis, JSP)<br/>Implemented alert security widget (Angular 5, Spring boot, DB2)<br/>Designed and implemented customer support form application to help with customer communication, document submission (Angular, Grails/Groovy, Gulp)<br/>Wrote multiple tools and reports (Ext JS, Grails 3/Groovy, DB2, MyBatis)<br/>Created Restful API for online rewards store (Grails/Groovy)<br/>Designed and implemented Restful API for leaderboards (Grails/Groovy)" 
 
         [[params.jobs.list]]
         position = "Java Web Developer "
@@ -129,64 +113,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         position = "Application Developer"
         dates = "2002 - 2006"
         company = "PBS Systems, Toronto"
-        details = "Developed client-server application for parts management and order processing (Java, AWT, SWING, JDBC, NetBeans 5.0, MySQL)<br/>Created reports for parts managers and physical inventory (Java, PDF, JDBC)<br/>Developed bridge application for data transferring from internal system to an external company (Java, JDBC)<br/>Maintenance and production support of client/server applications for parts, service, accounting and showroom (C/C++, Visual C++, Linux, Perl, Unix Shell script, ODBC)<br/>Managed client databases, performed database upgrades, performance tuning, backed up data, looked after data consistency (Informix, Linux/Unix, SQL)"
+        details = "Developed client-server application for parts management and order processing (Java, AWT, SWING, JDBC, NetBeans, MySQL)<br/>Created reports for parts managers and physical inventory (Java, PDF, JDBC)<br/>Developed bridge application for data transferring from internal system to an external company (Java, JDBC)<br/>Maintenance and production support of client/server applications for parts, service, accounting and showroom (C/C++, Visual C++, Linux, Perl, Unix Shell script, ODBC)<br/>Managed client databases, performed database upgrades, performance tuning, backed up data, looked after data consistency (Informix, Linux/Unix, SQL)"
 
         [[params.jobs.list]]
         position = "Programmer"
         dates = "May - Sep 2000"
         company = "Autros Health Care Solutions, Toronto"
         details = "Developed Serial Client Bridge emulator to transfer data from/to TCP/IP to/from Serial Port (Power Builder)<br/>Wrote program for distributed access finger print login UareU (C++)"
-
-    # Skills section
-    [params.skills]
-        enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
-
-        [[params.skills.list]]
-        skill = "Angular 5, Angular 1"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "Javascript, Typescript"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "ExtJs"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Grails and Groovy"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Java"
-        level = "95%"
-
-        [[params.skills.list]]
-        skill = "Spring MVC"
-        level = "91%"
-
-        [[params.skills.list]]
-        skill = "Bootstrap"
-        level = "70%"
-
-        [[params.skills.list]]
-        skill = "Node"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Git, STASH, CVS, Subversion"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Atlassian JIRA & Bamboo, Jenkins, Gulp, Docker, Maven, Ant"
-        level = "90%"
-
-        [[params.skills.list]]
-        skill = "Postgres, DB2, SQL stored procedures(Postgres), MySQL"
-        level = "90%"
-
 
     # Footer section
 
