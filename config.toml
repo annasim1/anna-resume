@@ -72,7 +72,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Certifications"
 
 	[[params.certification.list]]
-	Microsoft Certified: Azure Fundamentals
+	    certification = Microsoft Azure Fundamentals
 
 # Main body sections
 
