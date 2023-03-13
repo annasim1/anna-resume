@@ -65,14 +65,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "Minor in Mathematics"
         college = "University of Toronto"
         dates = "1998 - 2002"
-    
-    # Certifications
-    [params.interests]
-        enable = true
-        title = "Certifications"
 
-	    [[params.interests.list]]
-	    interest = "Microsoft Azure Fundamentals"
+	    [[params.education.list]]
+	    degree = "Microsoft Azure Fundamentals"
 
 # Main body sections
 
