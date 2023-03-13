@@ -67,12 +67,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "1998 - 2002"
     
     # Certifications
-    [params.certification]
+    [params.education]
         enable = true
         title = "Certifications"
 
-	[[params.certification.list]]
-	    certification = Microsoft Azure Fundamentals
+	    [[params.education.list]]
+	    degree = "Microsoft Azure Fundamentals"
 
 # Main body sections
 
