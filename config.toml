@@ -67,12 +67,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "1998 - 2002"
     
     # Certifications
-    [params.certification]
+    [params.interests]
         enable = true
         title = "Certifications"
 
-	    [[params.certification.list]]
-	    degree = "Microsoft Azure Fundamentals"
+	    [[params.interests.list]]
+	    interest = "Microsoft Azure Fundamentals"
 
 # Main body sections
 
@@ -83,7 +83,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Team lead/Full Stack Developer**<br/>Over 20+ years’ experience with software development lifecycle<br/>Expertise in cloud-based web applications and microservices<br/>Problem solver, often collaborating across the enterprise to drive successful delivery and resolve production incidents<br/>Proficient in leading and managing end-to-end projects utilizing Agile methodologies<br/>Hands-on experience with 24/7 production support<br/>Great communication and interpersonal skills"
+        summary = "**Team lead/Full Stack Developer**<br/><br/>Over 20+ years’ experience with software development lifecycle<br/>Expertise in cloud-based web applications and microservices<br/>Problem solver, often collaborating across the enterprise to drive successful delivery and resolve production incidents<br/>Proficient in leading and managing end-to-end projects utilizing Agile methodologies<br/>Hands-on experience with 24/7 production support<br/>Great communication and interpersonal skills"
 
     # Experiences section
     [params.experiences]
